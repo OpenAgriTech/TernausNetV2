@@ -3,7 +3,7 @@ from collections import OrderedDict
 
 from torch import nn
 
-from .bn import ABN
+from inplace_abn import ABN
 
 
 class IdentityResidualBlock(nn.Module):

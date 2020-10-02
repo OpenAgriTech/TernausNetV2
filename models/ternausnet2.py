@@ -8,7 +8,7 @@ import torch.utils.data
 import torch.utils.data.distributed
 from torch.nn import Sequential
 from collections import OrderedDict
-from modules.bn import ABN
+from inplace_abn import ABN
 
 from modules.wider_resnet import WiderResNet
 
